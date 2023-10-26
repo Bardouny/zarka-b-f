@@ -6,7 +6,7 @@ import axios from "axios";
 import ctx from './context';
 import useFetch from './myHook';
 
-
+//...ACCOUNT PAGE....//
 function Tablet({title ,amount ='Loading...',dh = '' ,color = 'green'}) {
     
     return ( 
