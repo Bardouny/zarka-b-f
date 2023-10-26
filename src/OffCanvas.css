@@ -1,0 +1,27 @@
+.offcanvas-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Move offcanvas menu off the screen by default */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: left 0.3s ease;
+  }
+  
+  .offcanvas-menu.open {
+    left: 0; /* Move onscreen when menu is open */
+  }
+  
+  .offcanvas-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .offcanvas-menu li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styling as needed */
+  
